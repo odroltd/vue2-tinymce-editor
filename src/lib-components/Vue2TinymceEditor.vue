@@ -9,54 +9,30 @@
     import tinymce from 'tinymce/tinymce'
 
     // A theme is also required
-    import 'tinymce/themes/mobile'
-    import 'tinymce/themes/silver'
+    import 'tinymce/icons/default/icons';
+    import 'tinymce/themes/silver/theme';
+    import 'tinymce/models/dom/model';
+    import 'tinymce/skins/ui/oxide/skin.css';
 
     // plugins are imported
-    import 'tinymce/plugins/advlist'
-    import 'tinymce/plugins/autolink'
-    import 'tinymce/plugins/autoresize'
-    import 'tinymce/plugins/autosave'
-    import 'tinymce/plugins/bbcode'
-    import 'tinymce/plugins/charmap'
-    import 'tinymce/plugins/code'
-    import 'tinymce/plugins/codesample'
-    // import 'tinymce/plugins/colorpicker'
-    // import 'tinymce/plugins/contextmenu'
-    import 'tinymce/plugins/directionality'
-    import 'tinymce/plugins/emoticons'
-    import 'tinymce/plugins/emoticons/js/emojis'
-    import 'tinymce/plugins/fullpage'
-    import 'tinymce/plugins/fullscreen'
-    import 'tinymce/plugins/help'
-    import 'tinymce/plugins/hr'
-    import 'tinymce/plugins/image'
-    import 'tinymce/plugins/imagetools'
-    import 'tinymce/plugins/importcss'
-    import 'tinymce/plugins/insertdatetime'
-    import 'tinymce/plugins/legacyoutput'
-    import 'tinymce/plugins/link'
-    import 'tinymce/plugins/lists'
-    import 'tinymce/plugins/media'
-    import 'tinymce/plugins/nonbreaking'
-    import 'tinymce/plugins/noneditable'
-    import 'tinymce/plugins/pagebreak'
-    import 'tinymce/plugins/paste'
-    import 'tinymce/plugins/preview'
-    import 'tinymce/plugins/print'
-    import 'tinymce/plugins/quickbars'
-    import 'tinymce/plugins/save'
-    import 'tinymce/plugins/searchreplace'
-    import 'tinymce/plugins/spellchecker'
-    import 'tinymce/plugins/tabfocus'
-    import 'tinymce/plugins/table'
-    import 'tinymce/plugins/template'
-    // import 'tinymce/plugins/textcolor'
-    import 'tinymce/plugins/textpattern'
-    import 'tinymce/plugins/toc'
-    import 'tinymce/plugins/visualblocks'
-    import 'tinymce/plugins/visualchars'
-    import 'tinymce/plugins/wordcount'
+    import 'tinymce/plugins/advlist/plugin';
+    import 'tinymce/plugins/autolink/plugin';
+    import 'tinymce/plugins/charmap/plugin';
+    import 'tinymce/plugins/preview/plugin';
+    import 'tinymce/plugins/anchor/plugin';
+    import 'tinymce/plugins/searchreplace/plugin';
+    import 'tinymce/plugins/visualblocks/plugin';
+    import 'tinymce/plugins/fullscreen/plugin';
+    import 'tinymce/plugins/insertdatetime/plugin';
+    import 'tinymce/plugins/media/plugin';
+    import 'tinymce/plugins/lists/plugin';
+    import 'tinymce/plugins/link/plugin';
+    import 'tinymce/plugins/image/plugin';
+    import 'tinymce/plugins/table/plugin';
+    import 'tinymce/plugins/code/plugin';
+    import 'tinymce/plugins/help/plugin';
+    import 'tinymce/plugins/wordcount/plugin';
+    import 'tinymce/plugins/autoresize/plugin';
 
 
     import 'tinymce/skins/content/default/content.min.css'
@@ -92,12 +68,8 @@
                 editor: null,
                 checkerTimeout: null,
                 isTyping: false,
-                plugins: 'advlist autolink charmap code codesample directionality emoticons ' +
-                    'fullscreen help hr image imagetools insertdatetime link lists ' +
-                    'media nonbreaking pagebreak paste preview print save searchreplace ' +
-                    'table template textpattern toc visualblocks visualchars wordcount',
-                toolbar: 'fontselect fontsizeselect formatselect | bold italic underline strikethrough forecolor backcolor | alignleft aligncenter alignright alignjustify | numlist bullist outdent indent | link table removeformat code',
-
+                plugins: 'lists',
+                toolbar: 'bold italic',
             }
         },
         mounted() {
