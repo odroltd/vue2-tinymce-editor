@@ -27,5 +27,7 @@ docs/.vuepress/dist
 # Backups
 .BACKUP
 .STORAGE
+.env
+.history
 
 public-demos

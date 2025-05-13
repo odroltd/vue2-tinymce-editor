@@ -1,10 +1,10 @@
 {
-  "name": "vue2-tinymce-editor",
+  "name": "@odroltd/vue2-tinymce-editor",
   "version": "0.0.1",
   "description": "A TinyMCE WYSIWYG editor component for your Vue products",
   "author": {
-    "name": "Alex Beshine",
-    "email": "alex31n@yahoo.com"
+    "name": "Conor Watson",
+    "email": "conor@odro.co.uk"
   },
   "license": "MIT",
   "main": "dist/vue2-tinymce-editor.ssr.js",
@@ -23,7 +23,7 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
   "dependencies": {
-    "tinymce": "^5.6.2"
+    "tinymce": "^6.8.5"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
