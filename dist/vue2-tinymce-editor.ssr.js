@@ -1,4 +1,4 @@
-'use strict';Object.defineProperty(exports,'__esModule',{value:true});var tinymce=require('tinymce/tinymce');require('tinymce/themes/mobile'),require('tinymce/themes/silver'),require('tinymce/plugins/advlist'),require('tinymce/plugins/autolink'),require('tinymce/plugins/autoresize'),require('tinymce/plugins/autosave'),require('tinymce/plugins/bbcode'),require('tinymce/plugins/charmap'),require('tinymce/plugins/code'),require('tinymce/plugins/codesample'),require('tinymce/plugins/directionality'),require('tinymce/plugins/emoticons'),require('tinymce/plugins/emoticons/js/emojis'),require('tinymce/plugins/fullpage'),require('tinymce/plugins/fullscreen'),require('tinymce/plugins/help'),require('tinymce/plugins/hr'),require('tinymce/plugins/image'),require('tinymce/plugins/imagetools'),require('tinymce/plugins/importcss'),require('tinymce/plugins/insertdatetime'),require('tinymce/plugins/legacyoutput'),require('tinymce/plugins/link'),require('tinymce/plugins/lists'),require('tinymce/plugins/media'),require('tinymce/plugins/nonbreaking'),require('tinymce/plugins/noneditable'),require('tinymce/plugins/pagebreak'),require('tinymce/plugins/paste'),require('tinymce/plugins/preview'),require('tinymce/plugins/print'),require('tinymce/plugins/quickbars'),require('tinymce/plugins/save'),require('tinymce/plugins/searchreplace'),require('tinymce/plugins/spellchecker'),require('tinymce/plugins/tabfocus'),require('tinymce/plugins/table'),require('tinymce/plugins/template'),require('tinymce/plugins/textpattern'),require('tinymce/plugins/toc'),require('tinymce/plugins/visualblocks'),require('tinymce/plugins/visualchars'),require('tinymce/plugins/wordcount'),require('tinymce/skins/content/default/content.min.css'),require('tinymce/skins/ui/oxide/skin.min.css'),require('tinymce/icons/default');function _interopDefaultLegacy(e){return e&&typeof e==='object'&&'default'in e?e:{'default':e}}var tinymce__default=/*#__PURE__*/_interopDefaultLegacy(tinymce);function _slicedToArray(arr, i) {
+'use strict';Object.defineProperty(exports,'__esModule',{value:true});var tinymce=require('tinymce/tinymce');require('tinymce/icons/default/icons'),require('tinymce/themes/silver/theme'),require('tinymce/models/dom/model'),require('tinymce/skins/ui/oxide/skin.css'),require('tinymce/plugins/advlist/plugin'),require('tinymce/plugins/autolink/plugin'),require('tinymce/plugins/charmap/plugin'),require('tinymce/plugins/preview/plugin'),require('tinymce/plugins/anchor/plugin'),require('tinymce/plugins/searchreplace/plugin'),require('tinymce/plugins/visualblocks/plugin'),require('tinymce/plugins/fullscreen/plugin'),require('tinymce/plugins/insertdatetime/plugin'),require('tinymce/plugins/media/plugin'),require('tinymce/plugins/lists/plugin'),require('tinymce/plugins/link/plugin'),require('tinymce/plugins/image/plugin'),require('tinymce/plugins/table/plugin'),require('tinymce/plugins/code/plugin'),require('tinymce/plugins/help/plugin'),require('tinymce/plugins/wordcount/plugin'),require('tinymce/plugins/autoresize/plugin'),require('tinymce/skins/content/default/content.min.css'),require('tinymce/skins/ui/oxide/skin.min.css'),require('tinymce/icons/default');function _interopDefaultLegacy(e){return e&&typeof e==='object'&&'default'in e?e:{'default':e}}var tinymce__default=/*#__PURE__*/_interopDefaultLegacy(tinymce);function _slicedToArray(arr, i) {
   return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
 }
 
@@ -85,8 +85,8 @@ var script = {
       editor: null,
       checkerTimeout: null,
       isTyping: false,
-      plugins: 'advlist autolink charmap code codesample directionality emoticons ' + 'fullscreen help hr image imagetools insertdatetime link lists ' + 'media nonbreaking pagebreak paste preview print save searchreplace ' + 'table template textpattern toc visualblocks visualchars wordcount',
-      toolbar: 'fontselect fontsizeselect formatselect | bold italic underline strikethrough forecolor backcolor | alignleft aligncenter alignright alignjustify | numlist bullist outdent indent | link table removeformat code'
+      plugins: 'lists',
+      toolbar: 'bold italic'
     };
   },
   mounted: function mounted() {
@@ -246,7 +246,7 @@ var __vue_render__ = function __vue_render__() {
   }, [_vm._ssrNode("<textarea" + _vm._ssrAttr("id", _vm.inputId) + _vm._ssrStyle(null, {
     'height': _vm.height + 'px',
     'width': _vm.width <= 0 ? 'auto' : _vm.width + 'px'
-  }, null) + " data-v-59c7718a>" + _vm._ssrEscape(_vm._s(_vm.content)) + "</textarea>")]);
+  }, null) + " data-v-297ad6d2>" + _vm._ssrEscape(_vm._s(_vm.content)) + "</textarea>")]);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -255,10 +255,10 @@ var __vue_staticRenderFns__ = [];
 var __vue_inject_styles__ = undefined;
 /* scoped */
 
-var __vue_scope_id__ = "data-v-59c7718a";
+var __vue_scope_id__ = "data-v-297ad6d2";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-59c7718a";
+var __vue_module_identifier__ = "data-v-297ad6d2";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
