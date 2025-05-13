@@ -1,6 +1,6 @@
 {
   "name": "@odroltd/vue2-tinymce-editor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A TinyMCE WYSIWYG editor component for your Vue products",
   "author": {
     "name": "Conor Watson",
